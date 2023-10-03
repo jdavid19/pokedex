@@ -12,7 +12,7 @@ def get_data(pokemon):
      pokemon_exp(pokemon)
 
 def pokemon_name(pokemon):
-        print("Name: "+pokemon["name"].capitalize())
+    print("Name: "+pokemon["name"].capitalize())
 
 def pokemon_id(pokemon):
     print("ID: "+(str(pokemon["id"])))

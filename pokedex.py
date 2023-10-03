@@ -7,7 +7,7 @@ def search_pokemon(name):
     pokemon = response.json()
     print("Name: "+pokemon["name"].capitalize())
     print("ID: "+(str(pokemon["id"])))
-    print("Base XP:"+(str(pokemon["base_experience"])))
+    print("Base XP: "+(str(pokemon["base_experience"])))
 
 if __name__ == "__main__":
     search_pokemon(sys.argv[1])

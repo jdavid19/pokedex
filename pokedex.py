@@ -7,9 +7,9 @@ def search_pokemon(name):
     get_data(pokemon)
 
 def get_data(pokemon):
-     pokemon_name(pokemon)
-     pokemon_id(pokemon)
-     pokemon_exp(pokemon)
+    pokemon_name(pokemon)
+    pokemon_id(pokemon)
+    pokemon_exp(pokemon)
 
 def pokemon_name(pokemon):
     print("Name: "+pokemon["name"].capitalize())

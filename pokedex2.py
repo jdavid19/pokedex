@@ -4,7 +4,7 @@ def input_name():
     i = 0
     while i < 6:
         try:
-            name = input("Enter Pokemon Name: ")
+            name = input("Enter Pokemon Name: ").lower()
             search_pokemon(name)
             i += 1
         except:
@@ -24,7 +24,6 @@ def get_data(pokemon):
 
 def pokemon_name(pokemon):
     print("Name:",pokemon["name"].capitalize())
-    pass
 
 def pokemon_hp(pokemon):
     print("HP:",str(pokemon["stats"][0]["base_stat"]))
